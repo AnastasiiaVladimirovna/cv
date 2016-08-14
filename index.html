@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,12 +8,22 @@
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/template.css" rel="stylesheet">
-
-  
     <script src="js/jquery-1.12.1.min.js"></script>
-      <script src="js/animation.js"></script>
+    <!-- <script src="js/animation.js"></script>
+ -->
     <script src="js/bootstrap.min.js"></script>
     <title>Anastasia_Vladimirovna CV</title>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        //Инициализация всплывающей панели для
+        //элементов веб-страницы, имеющих атрибут
+        //data-toggle="popover"
+        $('[data-toggle="popover"]').popover({
+            //Установление направления отображения popover
+            placement: 'top'
+        });
+    });
+    </script>
 </head>
 
 <body>
@@ -30,10 +41,8 @@
   <i class="fa fa-circle fa-stack-2x"></i>
   <i class="fa fa-desktop fa-stack-1x fa-inverse"></i>
 </span>Front-End Web Developer</span>
-                            <p>Доброго времени суток,коллеги!
-                                <br \>.В двух словах о себе:Мне 25 лет, люблю учиться, общаться, работаю много и с удовольствие!
-                                <br/>В ответ жду интересных проектов, достойной оплаты и возможности роста
-                                <br/>(з/п и профессионального)</p>
+                            <p>В двух словах о себе:Мне 25 лет, люблю учиться, общаться, работаю много и с удовольствие!
+                                <br/>Жду интересных проектов, достойной оплаты и возможности роста (з/п и профессионального)</p>
                         </div>
                         <div class="contact-me">
                             <h2><span class="fa-stack fa-lg">
@@ -56,18 +65,16 @@
 </span>Социальные сети</h2>
                             <span class="github"><a href="github.com/AnastasiiaVladimirovna" target="_blank">github.com/AnastasiiaVladimirovna</a></span>
                             </br>
-                            <span class="facebook"><a href="anastasiia_vladimirovna" target="_blank">anastasiia_vladimirovna</a></span>
+                            <span class="facebook"><a href="https://www.facebook.com/profile.php?id=100004178504454" target="_blank">anastasiia_vladimirovna</a></span>
                             </br>
-                            <span class="linkedin"><a href="#" target="_blank">anastasiiabondar</a></span>
+                            <span class="linkedin"><a href="https://ua.linkedin.com/in/anastasiiabondar" target="_blank">anastasiiabondar</a></span>
                         </div>
                         <div class="interest">
                             <h2><span class="fa-stack fa-lg">
   <i class="fa fa-circle fa-stack-2x"></i>
   <i class="fa fa-comments-o fa-stack-1x fa-inverse"></i>
 </span>Интересы и хобби</h2>
-
                         </div>
-
                     </div>
                     <div class="col-lg-8  col-md-8 col-sm-8 col-xs-12">
                         <div class="skills">
@@ -89,7 +96,6 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                             <div class="row">
                                 <div class="col-lg-6  col-md-6 col-xs-12">
@@ -108,7 +114,6 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                             <div class="row">
                                 <div class="col-lg-6  col-md-6 col-xs-12">
@@ -127,7 +132,6 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                             <div class="row">
                                 <div class="col-lg-6  col-md-6 col-xs-12">
@@ -146,54 +150,51 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
-                     <div class="working-experience">
-                        <h2>Опыт работы</h2>
-                        <h3>Front-End Web Developer</h3>
-                        <h4>IT компания "Good Point"</h4>
-                        <span>01.10.2015-н.в.</span>
-                        <p> Обязанности:</p>
-                        <ul class="box-experience">
-                           <li>cоздание новых и форматирование уже существующих сайтов с использованием:
-                              <ul class="post-box">
-                                 <li>CMS: Joomla,WordPress,Opencart</li>
-                                 <li>Bootstrap,Skeleton</li>
-                                 <li>Less,Sass</li>
-                                 <li>FontAwesome</li>
-                              </ul>
-                           </li>
-                           <li>доработка элементов дизайна</li>
-                           <li>верстка Landing Page</li>
-                           <li>верстка писем</li>
-                        </ul>
-                     </div>
-                     <div class="education">
-                     <h2>Образование</h2>
-                     <h3> ХНЭУ им.С.Кузнеца</h3>
-                     <span>01.09-2007-01.05.2014</span>
-                     <h3>Spalah IT-school</h3>
-                     <span>01.06.2015-01.09.2015</span>
-                     </div>
-                     <div id="wrap">
-                     
-                     <div class="admintabcontainer">
-                     <div class="hobbies">
-                     <div class="admintabs" title="Чтение книг"><i class="fa fa-book" aria-hidden="true"></i><div class="expandadmintabs">Люблю читать книги.Любимый жанрЖнаучная фантастика,автобиография.Жюль Верн;Джек Лондон</div></div>
-                     <div class="admintabs" title="Путешествия"><i class="fa fa-globe" aria-hidden="true"></i><div class="expandadmintabs">Люблю путешествовать Украиной и не только=)</div></div>
-                     <div class="admintabs" title="Кино"><i class="fa fa-video-camera" aria-hidden="true"></i><div class="expandadmintabs"></div></div>
-                     <div class="admintabs" title="Музыка"><i class="fa fa-music" aria-hidden="true"></i><div class="expandadmintabs"></div></div>
-                     <div class="admintabs" title="Интеллектуальные игры,олимпиады,соревнования"><i class="fa fa-trophy" aria-hidden="true"></i><div class="expandadmintabs"></div></div>
-                     <div class="admintabs" title="Вождение авто(права категории В)"><i class="fa fa-car" aria-hidden="true"></i><div class="expandadmintabs"></div></div>
+                        <div class="working-experience">
+                            <h2>Опыт работы</h2>
+                            <h3>Front-End Web Developer</h3>
+                            <h4>IT компания "Good Point"</h4>
+                            <span>01.10.2015-н.в.</span>
+                            <p> Обязанности:</p>
+                            <ul class="box-experience">
+                                <li>cоздание новых и форматирование уже существующих сайтов с использованием:
+                                    <ul class="post-box">
+                                        <li>CMS: Joomla,WordPress,Opencart</li>
+                                        <li>Bootstrap,Skeleton</li>
+                                        <li>Less,Sass</li>
+                                        <li>FontAwesome</li>
+                                    </ul>
+                                </li>
+                                <li>доработка элементов дизайна</li>
+                                <li>верстка Landing Page</li>
+                                <li>верстка писем</li>
+                            </ul>
                         </div>
-                     </div>
-                     </div>
+                        <div class="education">
+                            <h2>Образование</h2>
+                            <h3> ХНЭУ им.С.Кузнеца</h3>
+                            <span>01.09-2007-01.05.2014</span>
+                            <h3>Spalah IT-school</h3>
+                            <span>01.06.2015-01.09.2015</span>
+                        </div>
+                        <div id="wrap">
+                            <div class="admintabcontainer">
+                                <div class="hobbies">
+                                    <a href="javascript:void(0);" class="btn btn-primary" data-toggle="popover" title="Хобби" data-content="Люблю читать книги.Любимый жанр:научная фантастика,автобиография.Любимые авторы:Жюль Верн;Джек Лондон;Чарльз Диккенс"><i class="fa fa-book" aria-hidden="true"></i></a>
+                                    <a href="javascript:void(0);" class="btn btn-primary" data-toggle="popover" title="Путешествия" data-content="Люблю путешествовать Украиной и не только"><i class="fa fa-globe" aria-hidden="true"></i></a>
+                                    <a href="javascript:void(0);" class="btn btn-primary" data-toggle="popover" title="Кино" data-content="Побег из Шоушенка,Игры разума,Общество мертвых поэтов"><i class="fa fa-video-camera" aria-hidden="true"></i></a>
+                                    <a href="javascript:void(0);" class="btn btn-primary" data-toggle="popover" title="Музыка" data-content="ОЕ,"><i class="fa fa-music" aria-hidden="true"></i></a>
+                                    <a href="javascript:void(0);" class="btn btn-primary" data-toggle="popover" title="Интеллектуальные игры,олимпиады,соревнования" data-content="Принимаю участи в интеллектуальных играх Mad Head;конкурсах для Front-End Web Developer"><i class="fa fa-trophy" aria-hidden="true"></i></a>
+                                    <a href="javascript:void(0);" class="btn btn-primary" data-toggle="popover" title="Вождение авто" data-content="Есть права категории В"><i class="fa fa-car" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </body>
-
 </html>

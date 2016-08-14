@@ -51,12 +51,14 @@ h1{
 h2,h3,h4{
     margin-top: 10px;
 }
+h2{
+    font-size: 25px;
+}
 .main-block{
     padding: 20px;
 }
 /*avatar*/
 .avatar,.about-me,.contact-me,.social,.interest{
-  /*  max-width: 309px;*/
     height: auto;
     margin-bottom: 25px;
 }
@@ -187,11 +189,20 @@ margin-top: 10px;
     color: #e9f4ee;
     background-color: #20b08f;
 }
+.progress{
+    margin-bottom: 10px;
+}
 /*hobbies*/
 .hobbies a{
     font-size: 50px;
     width:16.6%;
-    color: #20b08f;
+    color: #fff;
+    margin: 0 5px;  
+}
+.btn.btn-primary,.btn-primary:active:focus{
+    background-color:#20b08f;
+    color: #fff;
+    border:1px solid #20b08f; 
 }
 /*working-experience*/
 .working-experience span{
@@ -213,22 +224,20 @@ color: #20b08f;
     display: flex;
 }
 .hobbies div{
-    /*width: 16.6%;*/
-   /* display: inline-block;*/
     font-size: 47px;
    text-align: center;
    color: #20b08f;
 }
-/*ddlkjgkldsjg*/
-#wrap
-{
+.hobbies .popover-content{
+    font-size: 14px;
+}
+#wrap{
     width: 100%;
     float: left;
     overflow: hidden;
     z-index:0;
 }
-.admintabcontainer
-{
+.admintabcontainer{
     width: 100%;
     float: left;
     min-width:110px;
@@ -238,8 +247,7 @@ color: #20b08f;
     -moz-transition: all ease-out 1s;
     -o-transition: all ease-out 1s;
 }
-.admintabs, .expandadmintabs
-{
+.admintabs, .expandadmintabs{
     float: left;
     width: 15%;
     margin-right: 2%;
@@ -255,16 +263,10 @@ color: #20b08f;
     -moz-transition: all ease-out 1s;
     -o-transition: all ease-out 1s;
 }
-.adminactivetab
-{
-    
-}
-.admintabs:nth-child(1), .admintabs
-{
+.admintabs:nth-child(1), .admintabs{
     background: #e9f4ee;
 }
-.expandadmintabs
-{
+.expandadmintabs{
     opacity: 0;
     margin: 0;
     position: absolute;
@@ -276,8 +278,7 @@ color: #20b08f;
     background: #e9f4ee;
 
 }
-.adminactivecontent
-{
+.adminactivecontent{
     transition: all ease-out 1s;
     -webkit-transition: all ease-out 1s;
     -moz-transition: all ease-out 1s;
