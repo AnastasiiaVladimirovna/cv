@@ -181,6 +181,7 @@ margin-top: 10px;
     font-size: 14px;
     height: auto;
     margin-bottom: 15px;
+    word-break: break-all;
 }
 .skills h2{
     margin-bottom: 5px;
@@ -194,9 +195,9 @@ margin-top: 10px;
 }
 /*hobbies*/
 .hobbies a{
-    font-size: 50px;
-    width:16.6%;
+    font-size: 5vh;
     color: #fff;
+    width: 16.6%;
     margin: 0 5px;  
 }
 .btn.btn-primary,.btn-primary:active:focus{
@@ -287,3 +288,14 @@ color: #20b08f;
     opacity: 1;
     font-size: 100%;
 }
+@media only screen and (min-width : 210px)  and (max-width : 640px) {
+    .hobbies{
+        display: block;
+        text-align: center;
+    }
+    .hobbies a {
+       width: 35%;
+       margin: 5px 0;
+    }
+}
+ 
