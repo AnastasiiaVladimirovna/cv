@@ -18,6 +18,7 @@ $(document).ready(function() {
         $el.addClass("active");
         $el.siblings().removeClass('active');
     });
-
+    
+    $("[data-localize]").localize("dict/dict", { language: en });
 
 });

@@ -7,7 +7,7 @@
     "education": "Education",
 
     "basic": {
-        "university": "KhNUE",
+        "university": "National University of Economics",
         "rank": "Master’s Degree (financial department)",
         "experiences": "Knowledge of methods of financial analysis, the ability to generate business contacts and interact with internal and external environment of the company, knowledge of assessment methods and management company value"
     },
@@ -49,8 +49,8 @@
         "vocation": "Front-end developer",
         "function": "layout pages according to the provided PSD layout, edit existing pages, creating a template for a CMS (Joomla, Wordpress, OpenCart), create a template transferred to the CMS and configure the module (+ filler content), customization of modules and components, layout of letters",
         "conference": "Conference",
-        "kharkivjs": "Kharkiv js",
-        "kharkivcss": "Kharkiv css",
+        "kharkivjs": "Kharkiv JS",
+        "kharkivcss": "Kharkiv CSS",
         "competitions": "Competitions",
         "result": "solved 45 problems"
     },
