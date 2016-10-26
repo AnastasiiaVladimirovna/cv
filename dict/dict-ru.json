@@ -1,0 +1,67 @@
+{
+    "about": {
+        "name": "Анастасия Бондар",
+        "vocation": "Front-end Developer"
+    },
+
+    "education": "образование",
+
+    "basic": {
+        "university": "ХНЭУ им. С. Кузнеца",
+        "rank": "Магистр (Финансовый факультет)",
+        "experiences": "Знание методов финансового анализа, умение формировать бизнес-контакты и осуществлять взаимодействие с внутренней и внешней средой компании, знание методов оценки и управления стоимостью компании"
+    },
+
+    "courses": {
+        "school": "IT-school SPALAH",
+        "vocation": "HTML/CSS Developer",
+        "experiences": "HTML5, CSS3,jQuery, Bootstrap, градиенты, тени, спрайты, позиционирование элементов, формы, таблицы, «Pезиновая» вёрстка, aдаптивный дизайн"
+    },
+
+    "skills": {
+        "name": "навыки",
+        "layout": "Вёрстка",
+        "html": "HTML5/CSS3",
+        "adaptive": "Адаптивная, кроссбраузерная, семантичная вёрстка",
+        "mobile": "Mobile Friendly",
+        "email": "Вёрстка электронных писем",
+        "css": "CSS-препроцессоры: LESS",
+        "styling": "Adobe Creative Cloud, Photoshop",
+        "redactor": "Для редактирования кода использую Sublime Text, Visual Studio Code, Notepad++",
+        "control": "Пользуюсь такими VCS как SVN и Git",
+        "cms": "CMS  Frameworks",
+        "wp": "WordPress",
+        "joomla": "Joomla",
+        "oc": "OpenCart",
+        "bootstrap": "Bootstrap",
+        "skeleton": "Skeleton",
+        "customization": "Кастомизация модулей и плагинов",
+        "programming": "Программирование",
+        "js": "навыки JS: работа с массивами и коллекциями, понимание асинхронных функций, работа с регулярным выражениями",
+        "php": "PHP: кастомизация модулей",
+        "jquery": "jQuery: работа с событиями"
+    },
+
+    "experience": {
+        "name": "опыт работы",
+        "company": "IT Company «Fastw3b»",
+        "date": "жовтень 2015 - т.ч.",
+        "vocation": "Front-end developer",
+        "function": "вёрстка страниц согласно предоставленому PSD макету, редактирование уже существующих страниц, создание шаблона для CMS ( Joomla, Wordpress, OpenCart ), перенос созданого шаблона на CMS и настройка модулей ( + наполнение контентом ), кастомизация модулей и компонентов, вёрстка писем",
+        "conference": "Конференции",
+        "kharkivjs": "Kharkiv js",
+        "kharkivcss": "Kharkiv css",
+        "competitions": "Конкурсы",
+        "result": "решено 45 задач"
+    },
+
+    "interests": {
+        "name": "интересы",
+        "hobby": "Интересы и увлечения",
+        "read": " Чтение книг",
+        "travelling": " Путешествия",
+        "game": " Интеллектуальные игры",
+        "bike": " Вело, сноуборд"
+    }
+
+}

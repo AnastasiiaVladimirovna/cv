@@ -1,0 +1,67 @@
+{
+    "about": {
+        "name": "Anastasiia Bondar",
+        "vocation": "Front-end Developer"
+    },
+
+    "education": "Education",
+
+    "basic": {
+        "university": "KhNUE",
+        "rank": "Master’s Degree (financial department)",
+        "experiences": "Knowledge of methods of financial analysis, the ability to generate business contacts and interact with internal and external environment of the company, knowledge of assessment methods and management company value"
+    },
+
+    "courses": {
+        "school": "IT-school SPALAH",
+        "vocation": "HTML/CSS Developer",
+        "experiences": "HTML5, CSS3, jQuery, Bootstrap, gradients, shadows, sprites, positioning elements, forms, tables, responsive layout "
+    },
+
+    "skills": {
+        "name": "Skills",
+        "layout": "Layout",
+        "html": "HTML5/CSS3",
+        "adaptive": "Responsive, cross-browser, semantically layout",
+        "mobile": "Mobile Friendly",
+        "email": "Layout of emails",
+        "css": "CSS-preprocessors: LESS",
+        "styling": "Adobe Creative Cloud, Photoshop",
+        "redactor": "To edit the code using Sublime Text, Visual Studio Code, Notepad ++",
+        "control": "I use such VCS like SVN and Git",
+        "cms": "CMS  Frameworks",
+        "wp": "WordPress",
+        "joomla": "Joomla",
+        "oc": "OpenCart",
+        "bootstrap": "Bootstrap",
+        "skeleton": "Skeleton",
+        "customization": "Customization of modules and plugins",
+        "programming": "Programming",
+        "js": "JS: work with arrays and collections, understanding asynchronous functions work with regular expressions",
+        "php": "PHP: customization of modules",
+        "jquery": "jQuery: work with events"
+    },
+
+    "experience": {
+        "name": "Experience",
+        "company": "IT Company “Fastw3b”",
+        "date": "october 2015 - present",
+        "vocation": "Front-end developer",
+        "function": "layout pages according to the provided PSD layout, edit existing pages, creating a template for a CMS (Joomla, Wordpress, OpenCart), create a template transferred to the CMS and configure the module (+ filler content), customization of modules and components, layout of letters",
+        "conference": "Conference",
+        "kharkivjs": "Kharkiv js",
+        "kharkivcss": "Kharkiv css",
+        "competitions": "Competitions",
+        "result": "solved 45 problems"
+    },
+
+    "interests": {
+        "name": "interests",
+        "hobby": "Interests and hobbies",
+        "read": " Books",
+        "travelling": " Travels",
+        "game": " Intellectual games",
+        "bike": " Bike, snowboard"
+    }
+
+}
