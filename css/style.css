@@ -101,6 +101,17 @@ body {
 .header .about .box-lang {
   display: inline-block;
 }
+.header .about .box-lang .btn.lang{
+  border-radius: 0;
+}
+.header .about .box-lang .btn.lang:first-child{
+  border-radius: 5px 0 0 5px;
+  border-right: 1px solid #d8d8d8;
+}
+.header .about .box-lang .btn.lang:last-child{
+  border-radius: 0 5px 5px 0;
+  border-left: 1px solid #d8d8d8;
+}
 .header .about .box-lang .btn.lang.active{
   background-color: #d8d8d8;
   box-shadow: inset 0 0 10px  #585858;
@@ -148,8 +159,6 @@ body {
           transform: scale(0.49);
   max-width: 100%;
   height: auto;
-  cursor: pointer;
-  cursor: zoom-in;
   top: 0;
 }
 .entry.strength .content .screen-container .screen.left.top {
