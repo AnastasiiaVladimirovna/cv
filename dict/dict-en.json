@@ -15,16 +15,16 @@
     "courses": {
         "school": "IT-school SPALAH",
         "vocation": "HTML/CSS Developer",
-        "experiences": "HTML5, CSS3, jQuery, Bootstrap, gradients, shadows, sprites, positioning elements, forms, tables, responsive layout "
+        "experiences": "HTML5, CSS3, jQuery, Bootstrap, gradients, shadows, sprites, positioning elements, forms, tables, responsive markup "
     },
 
     "skills": {
         "name": "Skills",
-        "layout": "Layout",
+        "layout": "Markup skills",
         "html": "HTML5/CSS3",
-        "adaptive": "Responsive, cross-browser, semantically layout",
+        "adaptive": "Responsive, cross-browser, semantically markup",
         "mobile": "Mobile Friendly",
-        "email": "Layout of emails",
+        "email": "Markup of emails",
         "css": "CSS-preprocessors: LESS",
         "styling": "Adobe Creative Cloud, Photoshop",
         "redactor": "To edit the code using Sublime Text, Visual Studio Code, Notepad ++",
@@ -47,7 +47,7 @@
         "company": "IT Company “Fastw3b”",
         "date": "october 2015 - present",
         "vocation": "Front-end developer",
-        "function": "layout pages according to the provided PSD layout, edit existing pages, creating a template for a CMS (Joomla, Wordpress, OpenCart), create a template transferred to the CMS and configure the module (+ filler content), customization of modules and components, layout of letters",
+        "function": "Markup pages according to the provided PSD markup, edit existing pages, creating a template for a CMS (Joomla, Wordpress, OpenCart), create a template transferred to the CMS and configure the module (+ filler content), customization of modules and components, markup of letters",
         "conference": "Conference",
         "kharkivjs": "Kharkiv JS",
         "kharkivcss": "Kharkiv CSS",
