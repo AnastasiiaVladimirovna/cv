@@ -15,16 +15,16 @@
     "courses": {
         "school": "IT-school SPALAH",
         "vocation": "HTML/CSS Developer",
-        "experiences": "HTML5, CSS3, jQuery, Bootstrap, gradients, shadows, sprites, positioning elements, forms, tables, responsive layout "
+        "experiences": "HTML5, CSS3, jQuery, Bootstrap, gradients, shadows, sprites, positioning elements, forms, tables, responsive markup "
     },
 
     "skills": {
         "name": "Skills",
-        "layout": "Layout",
+        "layout": "Markup skills",
         "html": "HTML5/CSS3",
-        "adaptive": "Responsive, cross-browser, semantically layout",
+        "adaptive": "Responsive, cross-browser, semantically markup",
         "mobile": "Mobile Friendly",
-        "email": "Layout of emails",
+        "email": "Markup of emails",
         "css": "CSS-preprocessors: LESS",
         "styling": "Adobe Creative Cloud, Photoshop",
         "redactor": "To edit the code using Sublime Text, Visual Studio Code, Notepad ++",
